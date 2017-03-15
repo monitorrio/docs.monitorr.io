@@ -7,7 +7,7 @@ Documentation
 Overview
 ---------
 
-ElmahBucket allows you to quickly add error logging into your .NET Web applications.
+Monitorr allows you to quickly add error logging into your .NET Web applications.
 
 It uses the popular `elmah <http://elmah.github.io/>`_ package for logging nearly all unhandled exceptions.
 

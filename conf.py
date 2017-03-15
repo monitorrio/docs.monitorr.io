@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# elmahbucket documentation build configuration file, created by
+# monitorr documentation build configuration file, created by
 # sphinx-quickstart on Mon Mar 31 20:50:35 2014.
 #
 # This file is execfile()d with the current directory set to its
@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'ElmahBucket.io'
+project = u'monitorr.io'
 copyright = u''
 
 # The version info for the project you're documenting, acts as replacement for
@@ -180,11 +180,11 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Elmahbucketdoc'
+htmlhelp_basename = 'monitorrdoc'
 
 if on_rtd:
   html_context = {
-     "disqus_shortname" : 'elmahbucket',
+     "disqus_shortname" : 'monitorr',
   }
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -204,7 +204,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'elmahbucket.tex', u'ElmahBucket Documentation',
+  ('index', 'monitorr.tex', u'Monitorr Documentation',
    u'Vasile Laur', 'manual'),
 ]
 
@@ -234,7 +234,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'elmahbucket', u'Elmahbucket Documentation',
+    ('index', 'monitorr', u'Monitorr Documentation',
      [u'Vasile Laur'], 1)
 ]
 
@@ -248,8 +248,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'ElmahBucket', u'ElmahBucket Documentation',
-   u'Vasile Laur', 'ElmahBucket', 'Error logging service for .NET web applications.',
+  ('index', 'Monitorr', u'Monitorr Documentation',
+   u'Vasile Laur', 'Monitorr', 'Error logging service for .NET web applications.',
    'Miscellaneous'),
 ]
 

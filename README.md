@@ -1,8 +1,8 @@
-# ElmahBucket Documentation
+# Monitorr Documentation
 
-[![Documentation Status](https://readthedocs.org/projects/elmahbucket/badge/?version=latest)](https://readthedocs.org/projects/elmahbucket/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/monitorr/badge/?version=latest)](https://readthedocs.org/projects/monitorr/?badge=latest)
 
-This repository contains [Sphinx-based](http://sphinx-doc.org) documentation for [ElmahBucket](http://elmahbucket.io). <http://docs.elmahbucket.io>
+This repository contains [Sphinx-based](http://sphinx-doc.org) documentation for [Monitorr](http://monitorr.io). <http://docs.monitorr.io>
 
 ## Contributing
 

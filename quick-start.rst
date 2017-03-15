@@ -4,20 +4,20 @@ Quick start
 Installation
 -------------
 
-There are a `couple of packages <https://www.nuget.org/packages?q=ElmahBucket>`_ for ElmahBucket available on NuGet.
+There are a `couple of packages <https://www.nuget.org/packages?q=Monitorr>`_ for Monitorr available on NuGet.
 
 
-To install ElmahBucket into your **ASP.NET application**, type the following command into the Package Manager Console window:
+To install Monitorr into your **ASP.NET application**, type the following command into the Package Manager Console window:
 
 .. code-block:: powershell
 
-   PM> Install-Package elmahbucket.io
+   PM> Install-Package monitorr.io
 
 
 Using NuGet Package Manager
 ----------------------------
 
- Right-click on your project in Visual Studio and choose the ``Manage NuGet Packages`` menu item. Search for ``ElmahBucket`` and install the chosen package:
+ Right-click on your project in Visual Studio and choose the ``Manage NuGet Packages`` menu item. Search for ``Monitorr`` and install the chosen package:
 
  .. image:: package-manager.png
     :alt: NuGet Package Manager window
@@ -25,7 +25,7 @@ Using NuGet Package Manager
 Configuration
 --------------
 
-After installing the package, open the Web.config file and paste the LogId created at `ElmahBucket Admin <https://admin.elmahbucket.io>`_.
+After installing the package, open the Web.config file and paste the LogId created at `Monitorr Admin <https://admin.monitorr.io>`_.
 
 .. image:: webconfig.png
    :alt: Web.config
@@ -35,7 +35,7 @@ After installing the package, open the Web.config file and paste the LogId creat
 Manual Logging
 --------------
 
-To manually log errors to elmahbucket.io use the LogToElmahBucket() extension and pass the LogId created at `ElmahBucket Admin <https://admin.elmahbucket.io>`_ as well as the current HTTP conext.
+To manually log errors to monitorr.io use the LogToMonitorr() extension and pass the LogId created at `Monitorr Admin <https://admin.monitorr.io>`_ as well as the current HTTP conext.
 
 .. image:: manual_log_dotnet.png
-  :alt: LogToElmahBucket Extension
+  :alt: LogToMonitorr Extension

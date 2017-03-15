@@ -337,34 +337,34 @@ footer {
     }
 }
 
-.navbar-elmahbucket {
+.navbar-monitorr {
     margin-bottom: 30px;
     background-color: #eee;
     border: none;
 }
 
-.navbar-elmahbucket .icon-bar {
+.navbar-monitorr .icon-bar {
     background-color: #333;
 }
 
-.navbar-elmahbucket .navbar-nav .active>a,
-.navbar-elmahbucket .navbar-nav .active>a:hover {
+.navbar-monitorr .navbar-nav .active>a,
+.navbar-monitorr .navbar-nav .active>a:hover {
     background-color: #ccc;
     color: #fff;
 }
 
-.navbar-elmahbucket .navbar-nav>.open>a,
-.navbar-elmahbucket .navbar-nav>.open>a:hover,
-.navbar-elmahbucket .navbar-nav>.open>a:focus {
+.navbar-monitorr .navbar-nav>.open>a,
+.navbar-monitorr .navbar-nav>.open>a:hover,
+.navbar-monitorr .navbar-nav>.open>a:focus {
     background-color: #ddd;
     color: #555;
 }
 
-.navbar-elmahbucket ul.nav li.dropdown.dropdown-auto:hover>a {
+.navbar-monitorr ul.nav li.dropdown.dropdown-auto:hover>a {
     background-color: #ddd;
 }
 
-.navbar-elmahbucket ul.nav li.dropdown.dropdown-auto:hover > ul.dropdown-menu {
+.navbar-monitorr ul.nav li.dropdown.dropdown-auto:hover > ul.dropdown-menu {
     display: block;
 }
 
