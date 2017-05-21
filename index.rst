@@ -7,10 +7,8 @@ Documentation
 Overview
 ---------
 
-Monitorr allows you to quickly add error logging into your .NET Web applications.
-
-It uses the popular `elmah <http://elmah.github.io/>`_ package for logging nearly all unhandled exceptions.
-
+Monitorr is an online service that provides exception tracking for of your .NET Web applications.
+It allows you to easily log all you application errors, and troubleshoot them in one location.
 
 Table of Contents
 ------------------
@@ -18,5 +16,5 @@ Table of Contents
 .. toctree::
    :maxdepth: 2
 
-   quick-start
+   dotnet-framework-quick-start
    dotnetcore-quick-start
