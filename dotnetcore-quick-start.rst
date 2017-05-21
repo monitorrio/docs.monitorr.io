@@ -1,4 +1,4 @@
-.NET Core Quick start
+.NET Core Quick Start
 =====================
 
 Installation
@@ -12,14 +12,13 @@ To install Monitorr into your **.NET Core application**, type the following comm
 
    PM> Install-Package monitorr.io.dotnetcore
 
-
 Using NuGet Package Manager
 ----------------------------
 
  Right-click on your project in Visual Studio and choose the ``Manage NuGet Packages`` menu item. Search for ``Monitorr`` and install the chosen package:
 
  .. image:: images/package-manager.png
-    :alt: NuGet Package Manager window
+    :alt: NuGet Package Manager Window
 
 Configuration
 --------------
@@ -35,20 +34,17 @@ After installing the package, configure the monitorr.io logger in ``Startup.cs``
         var logPath = Path.Combine(env.WebRootPath, "Logs/app-log-{Date}.txt");
         loggerFactory.AddFile(logPath);
 
+        app.UseMonitorr(new Guid("d46d3856-4f88-4ebc-804d-8e592a9dad55"));
 
-       app.UseMonitorr(new Guid("d46d3856-4f88-4ebc-804d-8e592a9dad55"));
+        app.UseCors("CorsPolicy");
 
-       app.UseCors("CorsPolicy");
+        app.UseIdentity();
 
-       app.UseIdentity();
+        ConfigureAuth(app);
 
-       ConfigureAuth(app);
+        app.UseMvc(routes => { routes.MapRoute(name: "default", template: "{controller=Home}/{action=Index}/{id?}"); });
 
-       app.UseMvc(routes => { routes.MapRoute(name: "default", template: "{controller=Home}/{action=Index}/{id?}"); });
-
-
-
-       await initializer.SeedAsync();
+        await initializer.SeedAsync();
     }
 
 Manual Logging

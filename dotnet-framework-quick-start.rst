@@ -25,7 +25,7 @@ Using NuGet Package Manager
 
 Configuration
 --------------
-After the monitorr.io nuget package has been installed you will see a windows prompting for Log Id.
+After the monitorr.io NuGet package has been installed you will see a windows prompting for Log Id.
 In order for you application to start logging errors, you will need to signup and login to `https://admin.monitorr.io <https://admin.monitorr.io>`_ dashboard and create a log there.
 
 To get the Log Id,  go into Log settings tab and copy the Log Id.
