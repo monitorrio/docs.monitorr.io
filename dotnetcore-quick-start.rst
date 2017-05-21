@@ -17,7 +17,7 @@ Using NuGet Package Manager
 
  Right-click on your project in Visual Studio and choose the ``Manage NuGet Packages`` menu item. Search for ``Monitorr`` and install the chosen package:
 
- .. image:: images/package-manager.png
+ .. image:: images/nuget-package-manager.png
     :alt: NuGet Package Manager Window
 
 Configuration
