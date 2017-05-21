@@ -20,7 +20,7 @@ Using NuGet Package Manager
 
  Right-click on your project in Visual Studio and choose the ``Manage NuGet Packages`` menu item. Search for ``Monitor`` and install the `monitorr.io` latest package:
 
- .. image:: images/package-manager.png
+ .. image:: images/nuget-package-manager.png
     :alt: NuGet Package Manager window
 
 Configuration
